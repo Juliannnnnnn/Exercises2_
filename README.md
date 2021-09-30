@@ -101,11 +101,46 @@ int main()
 	cout <<"Enter the Magnitude of the Earthquake:";
 	cin >> Magnitude;
 	
-	if(Magnitude < 2.0)
+
+if(Magnitude < 2.0)    
 {
     cout <<"Earthquake is considered to be a micro earthquake" <<endl;
 }
 else if(Magnitude <= 2.9)
 {
-    cout <<"Earthquake is considered to be a very minor"
+    cout <<"Earthquake is considered to be a very minor" <<endl;
+}
+else if(Magnitude <= 3.9)
+{
+    cout <<"Earthquake is considered to be a minor earthquake" <<endl;
+}
+else if(Magnitude <=4.9)
+{
+    cout <<"Earthquake is considered to be a light earthquake" <<endl;
+}
+else if(Magnitude <= 5.9)
+{
+    cout <<"Earthquake is considered to be a moderate earthquake" <<endl;
+}
+else if(Magnitude <= 6.9)
+{
+    cout <<"Earthquake is considered to be a strong earthquake" <<endl;
+}
+else if(Magnitude <= 7.9)
+{
+    cout <<"Earthquake is considered to be a major earthquake" <<endl;
+}
+else if(Magnitude <= 9.9)
+{
+    cout <<"Earthquake is considered to be a great earthquake" <<endl;
+}
+else if(Magnitude == 10)
+{
+    cout <<"Erathquake is considered to be a metoeic earthquake" <<endl;
+}
+else if(Magnitude > 10)
+{
+    cout << "There are no greater than ten" <<endl;
+}
+return 0;
 }
