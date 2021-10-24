@@ -145,7 +145,7 @@ else if(Magnitude > 10)
 return 0;
 }
 	    
-	    GITHUBB: 1 - ??
+	ALL EXERCISES 
 
 //////////////////////////////////
 
